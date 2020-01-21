@@ -1,0 +1,14 @@
+{
+  "name": "joveo-skills",
+  "version": "1.0.0",
+  "description": "Joveo skill app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "alexa-sdk": "^1.0.25",
+    "ask-sdk": "^2.0.10",
+    "request": "^2.88.0"
+  }
+}

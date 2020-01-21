@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.f8911e02-50df-436c-aa73-0742fd6cb4a4",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-joveo-jobs-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "8f8311798670b909e38a931714b37802"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "f5f2835317534b37b059321176815bfc"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:163743278125:function:ask-custom-joveo-jobs-default",
+            "functionName": "ask-custom-joveo-jobs-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "daf88b5a-74a5-4ccd-80f8-b4d83640a052"
+          }
+        ]
+      }
+    }
+  }
+}
